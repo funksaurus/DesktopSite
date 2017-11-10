@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html class="nojs html css_verticalspacer" lang="en-US">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2018.0.0.379"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script type="text/javascript">
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+
+// Update the 'nojs'/'js' class on the html node
+document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+
+// Check that all required assets are uploaded and up-to-date
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://errantnomad.org/phone/index.html"/>
+  <link rel="shortcut icon" href="images/favicon.ico?crc=446901001"/>
+  <title>HOME</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=95311670"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=256231214" id="pagesheet"/>
+  <!-- JS includes -->
+  <!--[if lt IE 9]>
+  <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+  <![endif]-->
+    <!--HTML Widget code-->
+    
+<style>
+#u12047 { font-size: 1px; line-height: 0px;}
+</style>
+
+		<style>
+.u12680 {
+  margin: 0 auto;
+  opacity: 0.6;
+  position: relative;
+  transition: opacity 0.9s;
+}
+.u12680:hover {
+  opacity: 1;
+}
+.u12680:hover .u12680help-mouse-wheel:before,
+.u12680:hover .u12680help-mouse-wheel:after {
+  animation: indicator-up-down 1.5s infinite ease-in-out;
+  height: 8px;
+  opacity: 0;
+}
+.u12680:hover .u12680help-down {
+  animation: arrow-down 0.3s infinite alternate;
+}
+.u12680help-mouse-down {
+  border: 3px solid #FFFFFF;
+  border-radius: 17px;
+  height: 50px;
+  position: relative;
+  background: transparent;
+  width: 30px;
+    margin: 0 auto;
+}
+.u12680help-mouse-wheel {
+  position: relative;
+  left: 50%;
+  transition: opacity 0.5s;
+}
+.u12680help-mouse-wheel:before,
+.u12680help-mouse-wheel:after {
+  content: '';
+  background: #000000;
+  border-radius: 50%;
+  margin-left: -2px;
+  height: 4px;
+  position: absolute;
+  top: 5px;
+  transition: top 0.5s, height 0.5s, opacity 0.5s;
+  width: 4px;
+}
+.u12680help-mouse-wheel:before {
+  animation: scroll 1.5s 0.75s infinite ease-in-out;
+}
+.u12680help-mouse-wheel:after {
+  animation: scroll 1.5s infinite ease-in-out;
+}
+.u12680help-down {
+  animation: arrow-down 0.6s infinite alternate ease-in-out;
+  border-bottom: 2px solid #CDCDCD;
+  border-right: 2px solid #CDCDCD;
+  display: block;
+  height: 5px;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  transition: opacity 0.5s;
+  width: 5px;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+@-moz-keyframes scroll {
+  0% {
+    top: 5px;
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes scroll {
+  0% {
+    top: 5px;
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    opacity: 0;
+  }
+}
+@-o-keyframes scroll {
+  0% {
+    top: 5px;
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    opacity: 0;
+  }
+}
+@keyframes scroll {
+  0% {
+    top: 5px;
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 15px;
+    opacity: 0;
+  }
+}
+@-moz-keyframes indicator-up-down {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+@-webkit-keyframes indicator-up-down {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+@-o-keyframes indicator-up-down {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+@keyframes indicator-up-down {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 20px;
+  }
+}
+@-moz-keyframes arrow-down {
+  0% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+@-webkit-keyframes arrow-down {
+  0% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+@-o-keyframes arrow-down {
+  0% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+@keyframes arrow-down {
+  0% {
+    margin-top: 5px;
+  }
+  100% {
+    margin-top: 15px;
+  }
+}
+}
+</style>
+	
+ </head>
+ <body>
+
+  <div class="clearfix borderbox" id="page"><!-- group -->
+   <a class="anchor_item grpelem" id="services" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
+   <div class="clearfix grpelem" id="pu12319"><!-- column -->
+    <div class="browser_width colelem" id="u12319-bw">
+     <div id="u12319"><!-- group -->
+      <div class="clearfix" id="u12319_align_to_page">
+       <nav class="MenuBar clearfix grpelem" id="menuu25787" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u25830"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive transition clearfix colelem" id="u25831" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u25834-4"><!-- rasterized frame --><div id="u25834-4_clip"><img alt="HOME" width="162" height="17" src="images/u25834-4-a.png?crc=371336717"/></div></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u25844"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u25845" href="services.html"><!-- horizontal box --><img class="MenuItemLabel NoWrap grpelem" id="u25847" alt="SERVICES" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images --><div class="grpelem" id="u25846" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --></div></a>
+         <div class="SubMenu MenuLevel1 clearfix" id="u25849"><!-- vertical box -->
+          <ul class="SubMenuView transition clearfix colelem" id="u25850"><!-- vertical box -->
+           <li class="MenuItemContainer clearfix colelem" id="u25865"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u25868" href="overview.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u25870-4"><!-- rasterized frame --><div id="u25870-4_clip"><img alt="OVERVIEW" width="186" height="21" src="images/u25870-4.png?crc=4176842187"/></div></div></a></li>
+           <li class="MenuItemContainer clearfix colelem" id="u25872"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u25873" href="filming.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u25876-4"><!-- rasterized frame --><div id="u25876-4_clip"><img alt="FILMING" width="186" height="21" src="images/u25876-4.png?crc=392824836"/></div></div></a></li>
+           <li class="MenuItemContainer clearfix colelem" id="u32673"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u32674" href="editing.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u32677-4"><!-- rasterized frame --><div id="u32677-4_clip"><img alt="EDITING" width="186" height="21" src="images/u32677-4.png?crc=148504278"/></div></div></a></li>
+           <li class="MenuItemContainer clearfix colelem" id="u25851"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u25852" href="advertising.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u25853-4"><!-- rasterized frame --><div id="u25853-4_clip"><img alt="ADVERTISING" width="186" height="21" src="images/u25853-4.png?crc=311789239"/></div></div></a></li>
+           <li class="MenuItemContainer clearfix colelem" id="u34732"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u34733" href="websites.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u34735-4"><!-- rasterized frame --><div id="u34735-4_clip"><img alt="WEBSITES" width="186" height="21" src="images/u34735-4.png?crc=3978585846"/></div></div></a></li>
+           <li class="MenuItemContainer clearfix colelem" id="u25858"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u25859" href="nonprofit.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap grpelem" id="u25860-4"><!-- rasterized frame --><div id="u25860-4_clip"><img alt="NONPROFIT" width="186" height="21" src="images/u25860-4.png?crc=476409243"/></div></div></a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u25795"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u25798" href="film.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- horizontal box --><img class="MenuItemLabel NoWrap grpelem" id="u25801" alt="FILM" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images --></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u25788"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u25789" href="about.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- horizontal box --><img class="MenuItemLabel NoWrap grpelem" id="u25792" alt="ABOUT" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images --></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u39868"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u39869" href="pricing.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- horizontal box --><img class="MenuItemLabel NoWrap grpelem" id="u39870" alt="PRICING" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images --></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u25809"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu transition clearfix colelem" id="u25810" href="contact.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- horizontal box --><img class="MenuItemLabel NoWrap grpelem" id="u25811" alt="CONTACT" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images --></a>
+        </div>
+       </nav>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu12052"><!-- group -->
+     <div class="grpelem" id="u12052"><!-- simple frame -->
+      <div class="fluid_height_spacer"></div>
+     </div>
+     <div class="size_fixed grpelem" id="u12047" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
+       
+     </div>
+     <div class="clip_frame grpelem" id="u12220"><!-- image -->
+      <img class="block" id="u12220_img" src="images/en_logo-3-white2.png?crc=330053524" alt="" data-heightwidthratio="1" data-image-width="215" data-image-height="215"/>
+     </div>
+     <a class="nonblock nontext anim_swing size_fixed grpelem" id="u12680" href="index.html#services" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+<aside class="u12680" >
+  <div class="u12680help-mouse-down"><i class="u12680help-mouse-wheel"></i></div><span class="u12680help-down"></span>
+</aside>
+</a>
+    </div>
+    <div class="clearfix colelem" id="pu12114"><!-- group -->
+     <div class="grpelem" id="u12114" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- simple frame --></div>
+     <div class="PamphletWidget clearfix allow_click_through grpelem" id="pamphletu11326" data-visibility="changed" style="visibility:hidden" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u11329" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- none box -->
+       <div class="clearfix grpelem" id="pu11333"><!-- column -->
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="0" id="u11333popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="0" id="u11333" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11333popup"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="3" id="u11334popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="3" id="u11334" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11334popup"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="pu11332"><!-- column -->
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="1" id="u11332popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="1" id="u11332" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11332popup"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="4" id="u11335popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="4" id="u11335" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11335popup"><!-- simple frame --></div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="pu11330"><!-- column -->
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="2" id="u11330popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="2" id="u11330" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11330popup"><!-- simple frame --></div>
+        </div>
+        <div class="popup_anchor allow_click_through colelem" data-col-pos="5" id="u11331popup">
+         <div class="Thumb popup_element museBGSize" data-col-pos="5" id="u11331" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11331popup"><!-- simple frame --></div>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u11336popup">
+       <div class="ContainerGroup clearfix" data-col-pos="1" id="u11336" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="u11336popup"><!-- none box -->
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="0" id="u11346" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <img class="colelem" id="u11347-12" alt="Owning all of my own equipment means no renting, which means saving for your project. Shooting is done in RAW formst Editing is done in Premiere, Resolve, and others Uploading and video management is free" width="259" height="132" src="images/u11347-12.png?crc=4074961711"/><!-- rasterized frame -->
+         <a class="nonblock nontext colelem" id="u11348-4" href="film.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- rasterized frame --><img id="u11348-4_img" alt="read more" width="149" height="41" src="images/u11348-4.png?crc=343591405"/></a>
+        </div>
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="1" id="u11343" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <div class="clearfix colelem" id="u11344-12" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+          <p>A full year of experience at Google and a full month of full-time job training have prepared me to handle any account you may have.</p>
+          <p>&nbsp;</p>
+          <ul class="list0 nls-None" id="u11344-10">
+           <li>Multiple campaigns targeted carefully for you</li>
+           <li>Keyword targeting from experience with thousands of accounts all over North America</li>
+           <li>Ads are professionally written and concise</li>
+          </ul>
+         </div>
+         <a class="nonblock nontext colelem" id="u11345-4" href="advertising.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- rasterized frame --><img id="u11345-4_img" alt="read more" width="149" height="41" src="images/u11345-4.png?crc=343591405"/></a>
+        </div>
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="2" id="u11349" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <img class="colelem" id="u11350-12" alt="Presentation is everything, but creating a good website or ecommerce section can be tough. Wordpress, Wix, or Squarespace templates Websites made from Dreamweaver, Muse, PS Made from scratch or templates, HTML, SQL" width="259" height="132" src="images/u11350-12.png?crc=3891434631"/><!-- rasterized frame -->
+         <a class="nonblock nontext colelem" id="u11351-4" href="websites.html" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- rasterized frame --><img id="u11351-4_img" alt="read more" width="149" height="41" src="images/u11351-4.png?crc=343591405"/></a>
+        </div>
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="3" id="u11352" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <div class="clearfix colelem" id="u11353-12" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+          <p id="u11353-2">All photos shot professionally on Cannon DSLR. I've been selling work and had pieces in galleries since high school.</p>
+          <p id="u11353-3">&nbsp;</p>
+          <ul class="list0 nls-None" id="u11353-10">
+           <li id="u11353-5">Shot in RAW and outputted as your choice</li>
+           <li id="u11353-7">Shot with 55-200mm, 24mm, 18-135mm</li>
+           <li id="u11353-9">You may monitor photos on the spot</li>
+          </ul>
+         </div>
+         <img class="colelem" id="u11354-4" alt="read more" width="149" height="41" src="images/u11354-4.png?crc=343591405"/><!-- rasterized frame -->
+        </div>
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="4" id="u11340" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <img class="colelem" id="u11342-10" alt="If you need something so simple as a logo or branding to create cohesion, no sweat! Made the logos for All Hands Active, Youth Art Collective, Errant Nomad, and others Have been doing company identity work for 11 years" width="259" height="132" src="images/u11342-10.png?crc=450193724"/><!-- rasterized frame -->
+         <img class="colelem" id="u11341-4" alt="read more" width="149" height="41" src="images/u11341-4.png?crc=343591405"/><!-- rasterized frame -->
+        </div>
+        <div class="Container invi rgba-background clearfix grpelem" data-col-pos="5" id="u11337" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- column -->
+         <img class="colelem" id="u11338-10" alt="A good way to get noticed without any payments. Trackable metrics with Analytics. Familiar with Facebook's ad platform and unpaid platform Experience with HTML tags and header injections" width="259" height="132" src="images/u11338-10.png?crc=294816724"/><!-- rasterized frame -->
+         <a class="nonblock nontext colelem" id="u11339-4" href="advertising.html#gallery" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- rasterized frame --><img id="u11339-4_img" alt="read more" width="149" height="41" src="images/u11339-4.png?crc=343591405"/></a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <img class="grpelem" id="u11359-4" alt="PHOTOGRAPHY" width="301" height="24" src="images/u11359-4.png?crc=42977010"/><!-- rasterized frame -->
+     <a class="nonblock nontext grpelem" id="u11360-4" href="film.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- rasterized frame --><img id="u11360-4_img" alt="FILM work and production" width="301" height="24" src="images/u11360-4.png?crc=3996011314"/></a>
+     <img class="grpelem" id="u11361-4" alt="logo design, Branding, identity" width="301" height="24" src="images/u11361-4.png?crc=177974457"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11362-4" alt="ADVERTISING" width="302" height="24" src="images/u11362-4.png?crc=4120906954"/><!-- rasterized frame -->
+     <a class="nonblock nontext grpelem" id="u11363-4" href="advertising.html#gallery" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- rasterized frame --><img id="u11363-4_img" alt="Social Media and S.E.O." width="301" height="24" src="images/u11363-4.png?crc=318478255"/></a>
+     <a class="nonblock nontext grpelem" id="u11364-4" href="websites.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- rasterized frame --><img id="u11364-4_img" alt="WEBSITE CREATION AND DESIGN" width="301" height="24" src="images/u11364-4.png?crc=4276856399"/></a>
+     <img class="grpelem" id="u11365-6" alt="I have done work for people, products, events, and more, at a personal and professional level. I've exhibited and sold in galleries and art fairs. " width="301" height="51" src="images/u11365-6.png?crc=3801333973"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11366-6" alt="I own all of my own equipment, and am ready to shoot and edit what you need, when you need it. I'd love to sit down and talk about your visions, so whatever I bring to the screen both has your touch and is well-made and deftly executed." width="302" height="85" src="images/u11366-6.png?crc=3895356265"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11367-4" alt="I've designed and/or made the logos for several companies and organizations, and can walk you through colors/typography/logo design. " width="302" height="51" src="images/u11367-4.png?crc=3795198820"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11368-4" alt="An AdWords expert at your service. I worked at Google for a year, handling thousands of accounts - including those of multi-billion-dollar companies - and am intimately familiar. " width="301" height="68" src="images/u11368-4.png?crc=3920981304"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11369-4" alt="If you want some non-paid advertising to keep people up with all the goings-on of your business or organization, I can help you get your work out." width="301" height="51" src="images/u11369-4.png?crc=13134118"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11370-6" alt="I've made many sites (including this one!) using HTML5, PHP, CSS, MySQL, and working in Bootstrap Studio, Pinegrow, Dreamweaver, Muse, Wordpress, Squarespace, and Wix. Let me know what your goals are, and I'll make a site of the according complexity. " width="301" height="102" src="images/u11370-6.png?crc=4281533120"/><!-- rasterized frame -->
+     <div class="grpelem" id="u11371" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- simple frame --></div>
+     <a class="nonblock nontext grpelem" id="u11372-4" href="http://musefree.com" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12114"><!-- rasterized frame --><img id="u11372-4_img" alt="SERVICES" width="940" height="49" src="images/u11372-4.png?crc=272714976"/></a>
+    </div>
+    <div class="clearfix colelem" id="pu11317"><!-- group -->
+     <div class="browser_width grpelem" id="u11317-bw">
+      <div id="u11317"><!-- group -->
+       <div class="clearfix" id="u11317_align_to_page">
+        <img class="grpelem" id="u11318-4" alt="11" width="208" height="56" src="images/u11318-4.png?crc=4072567003"/><!-- rasterized frame -->
+        <img class="grpelem" id="u11323-4" alt="23" width="208" height="56" src="images/u11323-4.png?crc=460709163"/><!-- rasterized frame -->
+        <img class="grpelem" id="u11324-4" alt="3505" width="208" height="56" src="images/u11324-4.png?crc=4073160103"/><!-- rasterized frame -->
+        <img class="grpelem" id="u11325-4" alt="183" width="208" height="56" src="images/u11325-4.png?crc=4066795755"/><!-- rasterized frame -->
+       </div>
+      </div>
+     </div>
+     <img class="grpelem" id="u11319" alt="countries" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images -->
+     <img class="grpelem" id="u11320" alt="users" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images -->
+     <img class="grpelem" id="u11321" alt="hours" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images -->
+     <img class="grpelem" id="u11322" alt="likes" src="images/blank.gif?crc=4208392903"/><!-- state-based BG images -->
+    </div>
+    <div class="clearfix colelem" id="pu12177"><!-- group -->
+     <div class="grpelem" id="u12177" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+     <div class="grpelem" id="u11302" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+     <img class="grpelem" id="u11303-4" alt="the latest" width="940" height="49" src="images/u11303-4.png?crc=237613268"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11304-4" alt="Welcome to the website and all that. " width="268" height="53" src="images/u11304-4.png?crc=371973947"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11305-4" alt="Project references and rules." width="268" height="53" src="images/u11305-4.png?crc=256165045"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11306-4" alt="Updates to projects I'm working on and equipment. " width="268" height="53" src="images/u11306-4.png?crc=3834029594"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11307-4" alt="Donec id leo nec massa euismod tincidunt. Mauris quam elit, efficitur in congue eget." width="268" height="53" src="images/u11307-4.png?crc=500132958"/><!-- rasterized frame -->
+     <a class="nonblock nontext grpelem" id="u11308-4" href="http://musefree.com" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- rasterized frame --><img id="u11308-4_img" alt="blog table (column 1)" width="268" height="28" src="images/u11308-4.png?crc=53709420"/></a>
+     <img class="grpelem" id="u11309-4" alt="blog table (column 3)" width="268" height="28" src="images/u11309-4.png?crc=429450253"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11310-4" alt="blog table (column 2)" width="268" height="28" src="images/u11310-4.png?crc=367687993"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11311-4" alt="blog table (column 4)" width="268" height="28" src="images/u11311-4.png?crc=3966263290"/><!-- rasterized frame -->
+     <div class="museBGSize grpelem" id="u11312" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+     <img class="grpelem" id="u11313-4" alt="01" width="71" height="70" src="images/u11313-4.png?crc=4175199356"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11314-4" alt="03" width="71" height="70" src="images/u11314-4.png?crc=4174765060"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11315-4" alt="02" width="71" height="70" src="images/u11315-4.png?crc=3975362967"/><!-- rasterized frame -->
+     <img class="grpelem" id="u11316-4" alt="04" width="71" height="70" src="images/u11316-4.png?crc=4073258835"/><!-- rasterized frame -->
+     <div class="museBGSize grpelem" id="u12410" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u12413" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+     <div class="museBGSize grpelem" id="u12416" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-leftAdjustmentDoneBy="pu12177"><!-- simple frame --></div>
+    </div>
+   </div>
+   <div class="verticalspacer" data-offset-top="2344" data-content-above-spacer="2343" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="preload_images">
+   <img class="preload" src="images/u25847-a.png?crc=368680929" alt=""/>
+   <img class="preload" src="images/arrowmenudown.png?crc=262559161" alt=""/>
+   <img class="preload" src="images/u25801-a.png?crc=3822137955" alt=""/>
+   <img class="preload" src="images/u25792-a.png?crc=16520798" alt=""/>
+   <img class="preload" src="images/u39870-a.png?crc=458722556" alt=""/>
+   <img class="preload" src="images/u25811-a.png?crc=4095101652" alt=""/>
+   <img class="preload" src="images/u11319-r.png?crc=3942745976" alt=""/>
+   <img class="preload" src="images/u11320-r.png?crc=264973267" alt=""/>
+   <img class="preload" src="images/u11321-r.png?crc=4015280390" alt=""/>
+   <img class="preload" src="images/u11322-r.png?crc=38985650" alt=""/>
+   <img class="preload" src="images/city-taxi-transportation-247-466x350.jpg?crc=3964055281" alt=""/>
+   <img class="preload" src="images/.jpg?crc=4079335122" alt=""/>
+   <img class="preload" src="images/capture-butwhytho.jpg?crc=3868569892" alt=""/>
+   <img class="preload" src="images/capture-becausefuckyeah.jpg?crc=4091676080" alt=""/>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   // Decide weather to suppress missing file error or not based on preference setting
+var suppressMissingFileError = false
+</script>
+  <script type="text/javascript">
+   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
+16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
+l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
+f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
+setTimeout(function(){g(!0)},5E3):g()}};
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch","jquery.musepolyfill.bgsize","webpro","musewpslideshow","jquery.museoverlay","touchswipe"],function(d){var $ = d;$(document).ready(function(){try{
+window.Muse.assets.check($);/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
+Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu11326', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu11326 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
+
+</script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+ 
+<script>
+/*
+ * OKVideo by OKFocus v2.3.2
+ * http://okfoc.us
+ *
+ * Copyright 2014, OKFocus
+ * Licensed under the MIT license.
+ *
+ */
+
+var player, OKEvents, options;
+
+(function ($) {
+
+  "use strict";
+
+  var BLANK_GIF = "data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw%3D%3D";
+  $.okvideo = function (options) {
+
+    // if the option var was just a string, turn it into an object
+    if (typeof options !== 'object') options = { 'video' : options };
+
+    var base = this;
+
+    // kick things off
+    base.init = function () {
+      base.options = $.extend({}, $.okvideo.options, options);
+
+      // support older versions of okvideo
+      if (base.options.video === null) base.options.video = base.options.source;
+
+      base.setOptions();
+
+      var target = base.options.target || $('body');
+      var position = target[0] == $('body')[0] ? 'fixed' : 'absolute';
+
+      target.css({position: 'relative'});
+
+      var zIndex = base.options.controls === 3 ? -999 : "auto";
+      var mask = '<div id="okplayer-mask" style="position:' + position + ';left:0;top:0;overflow:hidden;z-index:-998;height:100%;width:100%;"></div>';
+
+      if (OKEvents.utils.isMobile()) {
+        target.append('<div id="okplayer" style="position:' + position + ';left:0;top:0;overflow:hidden;z-index:' + zIndex + ';height:100%;width:100%;"></div>');
+      }
+      else {
+				if (base.options.controls === 3) {
+					target.append(mask)
+				}
+				if (base.options.adproof === 1) {
+					target.append('<div id="okplayer" style="position:' + position + ';left:-10%;top:-10%;overflow:hidden;z-index:' + zIndex + ';height:120%;width:120%;"></div>');
+				} else {
+					target.append('<div id="okplayer" style="position:' + position + ';left:0;top:0;overflow:hidden;z-index:' + zIndex + ';height:100%;width:100%;"></div>');
+				}
+      }
+
+      $("#okplayer-mask").css("background-image", "url(" + BLANK_GIF + ")");
+
+
+      if (base.options.playlist.list === null) {
+        if (base.options.video.provider === 'youtube') {
+          base.loadYouTubeAPI();
+        } else if (base.options.video.provider === 'vimeo') {
+          base.options.volume /= 100;
+          base.loadVimeoAPI();
+        }
+      } else {
+        base.loadYouTubeAPI();
+      }
+    };
+
+    // clean the options
+    base.setOptions = function () {
+      // exchange 'true' for '1' and 'false' for 3
+      for (var key in this.options){
+        if (this.options[key] === true) this.options[key] = 1;
+        if (this.options[key] === false) this.options[key] = 3;
+      }
+
+      if (base.options.playlist.list === null) {
+        base.options.video = base.determineProvider();
+      }
+
+      // pass options to the window
+      $(window).data('okoptions', base.options);
+    };
+
+    // load the youtube api
+    base.loadYouTubeAPI = function (callback) {
+      base.insertJS('//www.youtube.com/player_api');
+    };
+
+    base.loadYouTubePlaylist = function() {
+      player.loadPlaylist(base.options.playlist.list, base.options.playlist.index, base.options.playlist.startSeconds, base.options.playlist.suggestedQuality);
+    };
+
+    // load the vimeo api by replacing the div with an iframe and loading js
+    base.loadVimeoAPI = function() {
+      $('#okplayer').replaceWith(function() {
+        return '<iframe src="//player.vimeo.com/video/' + base.options.video.id + '?api=1&title=0&byline=0&portrait=0&playbar=0&loop=' + base.options.loop + '&autoplay=' + (base.options.autoplay === 1 ? 1 : 0) + '&player_id=okplayer" frameborder="0" style="' + $(this).attr('style') + 'visibility:hidden;background-color:black;" id="' + $(this).attr('id') + '"></iframe>';
+      });
+
+			// if necessary, debug with the most recent version of froogaloop
+    	// base.insertJS('https://rawgithub.com/vimeo/player-api/master/javascript/froogaloop.js', function(){
+    	// base.insertJS('http://a.vimeocdn.com/js/froogaloop2.min.js', function(){
+    	base.insertJS('//origin-assets.vimeo.com/js/froogaloop2.min.js', function(){
+        vimeoPlayerReady();
+      });
+    };
+
+    // insert js into the head and exectue a callback function
+    base.insertJS = function(src, callback){
+      var tag = document.createElement('script');
+
+      if (callback){
+        if (tag.readyState){  //IE
+          tag.onreadystatechange = function(){
+            if (tag.readyState === "loaded" ||
+                tag.readyState === "complete"){
+              tag.onreadystatechange = null;
+              callback();
+            }
+          };
+        } else {
+          tag.onload = function() {
+            callback();
+          };
+        }
+      }
+      tag.src = src;
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    };
+
+    // is it from youtube or vimeo?
+    base.determineProvider = function () {
+      var a = document.createElement('a');
+      a.href = base.options.video;
+
+      if (/youtube.com/.test(base.options.video)){
+        return { "provider" : "youtube", "id" : a.href.slice(a.href.indexOf('v=') + 2).toString() };
+      } else if (/vimeo.com/.test(base.options.video)) {
+        return { "provider" : "vimeo", "id" : a.href.split('/')[3].toString() };
+      } else if (/[-A-Za-z0-9_]+/.test(base.options.video)) {
+        var id = new String(base.options.video.match(/[-A-Za-z0-9_]+/));
+        if (id.length == 11) {
+          return { "provider" : "youtube", "id" : id.toString() };
+        } else {
+          for (var i = 0; i < base.options.video.length; i++) {
+            if (typeof parseInt(base.options.video[i]) !== "number") {
+              throw 'not vimeo but thought it was for a sec';
+            }
+          }
+          return { "provider" : "vimeo", "id" : base.options.video };
+        }
+      } else {
+        throw "OKVideo: Invalid video source";
+      }
+    };
+
+    base.init();
+  };
+
+  $.okvideo.options = {
+    source: null, // Deprecate dis l8r
+    video: null,
+    playlist: { // eat ur heart out @brokyo
+      list: null,
+      index: 0,
+      startSeconds: 0,
+      suggestedQuality: "default" // options: small, medium, large, hd720, hd1080, highres, default
+    },
+    disableKeyControl: 1,
+    captions: 0,
+    loop: 1,
+    hd: 1,
+    volume: 0,
+    adproof: false,
+    unstarted: null,
+    onFinished: null,
+    onReady: null,
+    onPlay: null,
+    onPause: null,
+    buffering: null,
+    controls: false,
+    autoplay: true,
+    annotations: true,
+    cued: null
+  };
+
+  $.fn.okvideo = function (options) {
+    options.target = this;
+    return this.each(function () {
+      (new $.okvideo(options));
+    });
+  };
+
+})(jQuery);
+
+// vimeo player ready
+function vimeoPlayerReady() {
+  options = jQuery(window).data('okoptions');
+
+  var iframe = jQuery('#okplayer')[0];
+  player = $f(iframe);
+
+  // hide player until Vimeo hides controls...
+  window.setTimeout(function(){
+    jQuery('#okplayer').css('visibility', 'visible');
+  }, 2000);
+
+  player.addEvent('ready', function () {
+    OKEvents.v.onReady();
+
+		// "Do not try to add listeners or call functions before receiving this event."
+		if (OKEvents.utils.isMobile()) {
+			// mobile devices cannot listen for play event
+			OKEvents.v.onPlay();
+		} else {
+			player.addEvent('play', OKEvents.v.onPlay);
+			player.addEvent('pause', OKEvents.v.onPause);
+			player.addEvent('finish', OKEvents.v.onFinish);
+		}
+
+		player.api('play');
+  });
+}
+
+// youtube player ready
+function onYouTubePlayerAPIReady() {
+  options = jQuery(window).data('okoptions');
+  player = new YT.Player('okplayer', {
+    videoId: options.video ? options.video.id : null,
+    playerVars: {
+      'autohide': 1,
+      'autoplay': 0, //options.autoplay,
+      'disablekb': options.keyControls,
+      'cc_load_policy': options.captions,
+      'controls': options.controls,
+      'enablejsapi': 1,
+      'fs': 0,
+      'modestbranding': 1,
+      'origin': window.location.origin || (window.location.protocol + '//' + window.location.hostname),
+      'iv_load_policy': options.annotations,
+      'loop': options.loop,
+      'showinfo': 0,
+      'rel': 0,
+      'wmode': 'opaque',
+      'hd': options.hd
+    },
+    events: {
+      'onReady': OKEvents.yt.ready,
+      'onStateChange': OKEvents.yt.onStateChange,
+      'onError': OKEvents.yt.error
+    }
+  });
+
+}
+
+OKEvents = {
+  yt: {
+    ready: function(event){
+      event.target.setVolume(options.volume);
+      if (options.autoplay === 1) {
+        if (options.playlist.list) {
+          player.loadPlaylist(options.playlist.list, options.playlist.index, options.playlist.startSeconds, options.playlist.suggestedQuality);
+        } else {
+          event.target.playVideo();
+        }
+      }
+      OKEvents.utils.isFunction(options.onReady) && options.onReady();
+    },
+    onStateChange: function(event){
+      switch(event.data){
+      case -1:
+        OKEvents.utils.isFunction(options.unstarted) && options.unstarted();
+        break;
+      case 0:
+        OKEvents.utils.isFunction(options.onFinished) && options.onFinished();
+        options.loop && event.target.playVideo();
+        break;
+      case 1:
+        OKEvents.utils.isFunction(options.onPlay) && options.onPlay();
+        break;
+      case 2:
+        OKEvents.utils.isFunction(options.onPause) && options.onPause();
+        break;
+      case 3:
+        OKEvents.utils.isFunction(options.buffering) && options.buffering();
+        break;
+      case 5:
+        OKEvents.utils.isFunction(options.cued) && options.cued();
+        break;
+      default:
+        throw "OKVideo: received invalid data from YT player.";
+      }
+    },
+    error: function(event){
+      throw event;
+    }
+  },
+  v: {
+    onReady: function(){
+      OKEvents.utils.isFunction(options.onReady) && options.onReady();
+    },
+    onPlay: function(){
+      if (!OKEvents.utils.isMobile()) player.api('setVolume', options.volume);
+      OKEvents.utils.isFunction(options.onPlay) && options.onPlay();
+    },
+    onPause: function(){
+      OKEvents.utils.isFunction(options.onPause) && options.onPause();
+    },
+    onFinish: function(){
+      OKEvents.utils.isFunction(options.onFinish) && options.onFinish();
+    }
+  },
+  utils: {
+    isFunction: function(func){
+      if (typeof func === 'function'){
+        return true;
+      } else {
+        return false;
+      }
+    },
+    isMobile: function() {
+      if (navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+};
+</script>
+<!-- hide -->
+
+<script type="text/javascript">
+    $(function(){
+        $.okvideo({ source: 'https://vimeo.com/185884629', 
+                    volume: 0, 
+                    loop: true,
+                    controls: true,
+                    hd:true, 
+                    adproof: true,
+                 });
+    });
+</script>
+
+
+    
+   </body>
+</html>
